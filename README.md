@@ -3,7 +3,7 @@ A bash shell script to login Southeast University DrCOM webgate authentication.
 
 ## 1  Introduction
 
-Since August 1st, 2019, Southeast University has deployed a new webgate authentication system from [DrCOM]( http://www.drcom.com.cn/ ). The new webgate authentication system provides only Web interface for users to login, logout and manage their accounts. 
+Since August 1st, 2019, Southeast University has deployed a new webgate authentication system from [DrCOM]( http://www.drcom.com.cn/ ). The new webgate authentication system provides only Web interface for users to login, logout and manage their accounts. Also, the web login is based on javascript, which is not supported in text-based web browsers(e.g. w3m).
 
 However, no official solution for Linux server has been provided ever, which causes troubles for users logging into webgate on Linux server. Especially after mid-august, even the servers in server room are required to login webgate and charged 5 RMB every 10 GB.
 
