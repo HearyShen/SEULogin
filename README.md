@@ -1,5 +1,5 @@
 # SEULogin
-A bash shell script to login Southeast DrCOM webgate authentication.
+A bash shell script to login Southeast University DrCOM webgate authentication.
 
 ## 1  Introduction
 
@@ -7,7 +7,7 @@ Since August 1st, 2019, Southeast University has deployed a new webgate authenti
 
 However, no official solution for Linux server has been provided ever, which causes troubles for users logging into webgate on Linux server. Especially after mid-august, even the servers in server room are required to login webgate and charged 5 RMB every 10 GB.
 
-This tiny tool is written to help the users to login with Shell interface.
+[SEULogin](https://github.com/HearyShen/SEULogin) is a tiny tool written to help the users to login with shell interface.
 
 ## 2  Usage
 
