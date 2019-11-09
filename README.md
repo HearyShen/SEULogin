@@ -27,4 +27,4 @@ You can just logout your account via user self-service system. No need for a scr
 
 ## 3  Notes
 
-The IP address of your host may change after logout. You can use [IPMailAlert](https://github.com/HearyShen/IPMailAlert) to keep informed for IP address changes.
+The IP address of your host may change after logout. You can use [IPMailAlert](https://github.com/HearyShen/IPMailAlert) to keep informed of your latest IP address.
