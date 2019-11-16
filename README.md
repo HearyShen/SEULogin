@@ -7,7 +7,7 @@ Since August 1st, 2019, Southeast University has deployed a new webgate authenti
 
 However, no official solution for Linux server has been provided ever, which causes troubles for users logging into webgate on Linux server. Especially after mid-october, even the servers in server room are required to login webgate and charged 5 RMB every 10 GB.
 
-[SEULogin](https://github.com/HearyShen/SEULogin) is a tiny tool written to help the users to login with shell interface.
+[SEULogin](https://github.com/HearyShen/SEULogin) is a tiny tool written to help the users login with shell interface.
 
 ## 2  Usage
 
