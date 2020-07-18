@@ -15,9 +15,17 @@ However, no official solution for Linux server has been provided ever, which cau
 
 It is super easy to use the script:
 
-1. Open the script with an editor you like;
-2. Fill in the `username` and `password` (replace `<username>` and `<password>`);
-3. Run with Bash (e.g. `bash login.sh`).
+Run with Bash as
+
+```
+bash seu-login.sh <username> <password>
+```
+
+e.g. 
+
+```
+bash seu-login.sh 220209876 12345678
+```
 
 You should see a response like `dr1003({"result":"1","msg":"认证成功"})` in your shell.
 
