@@ -7,7 +7,7 @@ For background story, since August 1st, 2019, Southeast University has deployed 
 
 However, no official solution for Linux server has been provided ever, which causes troubles for users logging into webgate on Linux server. Especially after mid-october, even the servers in server room are required to login webgate and charged 5 RMB every 10 GB.
 
-[SEULogin](https://github.com/HearyShen/SEULogin) is a tiny tool written to help the users login and logout with shell interface.
+[SEULogin](https://github.com/HearyShen/SEULogin) is a tiny toolbox written to help the users login and logout with shell interface.
 
 ## 2  Usage
 
@@ -15,7 +15,7 @@ It is super easy to use the script:
 
 ### 2.1  Login
 
-Run with Bash as:
+To login, run with Bash as:
 
 ```bash
 bash seu-login.sh <username> <password>
@@ -31,14 +31,14 @@ chmod u+x seu-login.sh		# grant executable privilege if necessary
 e.g. 
 
 ```bash
-bash seu-login.sh 220209876 12345678
+bash seu-login.sh 220123456 12345678
 ```
 
 You should see a response like `dr1003({"result":"1","msg":"认证成功"})` in your shell.
 
 ### 2.2  Logout
 
-Run with Bash as:
+To logout, run with Bash as:
 
 ```bash
 bash seu-logout.sh
@@ -54,6 +54,32 @@ chmod u+x seu-logout.sh		# grant executable privilege if necessary
 Also, you can just logout your account via user self-service system.
 
 You should see a response like `dr1004({"result":"1","msg":"注销成功"})` in your shell.
+
+### 2.3  Who am I
+
+To check who am I online on the current device, run with Bash as:
+
+```bash
+bash seu-whoami.sh
+```
+
+or
+
+```bash
+chmod u+x seu-whoami.sh		# grant executable privilege if necessary
+./seu-whoami.sh
+```
+
+**Warning**: *This **whoami** is experimental-only currently, it only works on devices that have already logged in.*
+
+You should see a message like:
+
+```
+[WARNING] Experimental-only for login device currently.
+User ID:         220123456
+User Name:       '张三'
+Login IP:        121.248.34.56
+```
 
 ## 3  Notes
 
