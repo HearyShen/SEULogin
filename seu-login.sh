@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# SEULogin by HearyShen (2020.12.1)
+# Refer to GitHub<https://github.com/HearyShen/SEULogin> for support.
+
 # input username and password
 username=$1
 password=$2

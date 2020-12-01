@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# SEULogin by HearyShen (2020.12.1)
+# Refer to GitHub<https://github.com/HearyShen/SEULogin> for support.
+
 # get IP and send logout GET with curl (ignore local and docker IP)
 logout_ip=$(hostname -I | cut -f 1 -d ' ')
 echo "[Logout] from $logout_ip"
